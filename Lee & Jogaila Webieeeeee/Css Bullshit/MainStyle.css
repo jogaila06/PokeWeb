@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.navBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    position: fixed;
+    left: 5;
+    margin-right: 5px;
+    width: 99%;
+    top: 5;
+}
+
+.nav {
+    display: flex;
+}
+
+.dropDown{
+    display: flex;
+}
+
+.dropDown > .lee {
+    display: flex;
+}
+
+.dropDown > .jogaila {
+    display: flex;
+}
+
+.mainBar {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+.footer {
+    grid-column: 1 / -1;
+}
+
+div > div {
+    text-align: center;
+}
+
+.mainBar > div {
+    border-radius: 30px;
+}
+
+
