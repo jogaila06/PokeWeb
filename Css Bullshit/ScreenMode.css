@@ -3,7 +3,7 @@
     .mainBar { 
         grid-template-columns: 1fr;
         grid-auto-rows: 400px;
-        margin-top: 220px;
+        margin-top: 260px;
         
     }
 

@@ -6,7 +6,6 @@
 .screen2::-webkit-scrollbar {
   width: 10px;
   height: 5px;
-  margin-top: 10px;
 }
 
 .screen2::-webkit-scrollbar-track {
