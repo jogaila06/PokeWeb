@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 214, 185);
+    background-image: linear-gradient(to bottom, wheat, burlywood);
     background-attachment: fixed;
 }
 
@@ -91,6 +91,12 @@ hr {
     border: 3px solid black;
     font-size: 20px;
     text-align: justify;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.screen2 > p , .footer > p {
+    margin-right: 20px;
 }
 
 .lee > div {
@@ -149,4 +155,9 @@ hr {
 
 .navBar.active .title {
     transform: translateY(80px);
+}
+
+iframe {
+    float: left;
+    margin-right: 10px;
 }

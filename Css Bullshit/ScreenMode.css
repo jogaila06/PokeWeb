@@ -13,8 +13,16 @@
     }
 
     .navBar {
-        width: 79%;
+        width: 78%;
     }
+
+    .screen2 {
+        font-size: 20px;
+    }
+
+    iframe {
+    width: 95%;
+}
 }
 
 @media (min-width: 800px){
@@ -33,6 +41,11 @@
     .navBar {
         width: 79%;
     }
+    
+    .screen2 {
+        font-size: 20px;
+    }
+
     
 }
 
