@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+    text-align: center;
+}
+
+.container {
+    grid-template-columns: 1fr;
+    display: grid;
+    width: max-content;
+    overflow-y: hidden;
+}
+
+.container, .navBar {
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+.navBar {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+    position: fixed;
+}
+
+.nav, .dropDown {
+    display: flex;
+}
+
+.dropDown > .lee, .dropDown > .jogaila {
+    display: flex;
+}
+
+.mainBar {
+    display: grid;
+    gap: 10px;
+    width: 100%;
+    
+}
+
+.mainBar > div {
+    border-radius: 30px;
+}
+
+.footer {
+    grid-column: 1 / -1;
+}

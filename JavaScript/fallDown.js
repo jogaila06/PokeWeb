@@ -9,7 +9,7 @@ function leeDropDown(){
         setTimeout(() => {
         document.querySelectorAll(".lee > div").forEach(el => {el.style.display = "none";}); 
         document.querySelectorAll(".jogaila > div").forEach(el => {el.style.display = "none";});
-        }, 1000)
+        }, 500)
         
         
     } else {
@@ -29,7 +29,7 @@ function jogailaDropDown(){
         setTimeout(() => {
         document.querySelectorAll(".jogaila > div").forEach(el => {el.style.display = "none";});
         document.querySelectorAll(".lee > div").forEach(el => {el.style.display = "none";});
-        }, 1000)
+        }, 500)
         
     } else {
         navBar.classList.add("active");
