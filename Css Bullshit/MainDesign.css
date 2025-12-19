@@ -52,7 +52,8 @@ hr {
     background-color: black;
 }
 
-.nav > div {
+.nav > div {
+    margin: auto;
     margin-top: 5px;
     width: 100px;
     height: 25px;
